@@ -10,7 +10,7 @@ export default function Home() {
   //cada vez que se hace clic en el una pagina registra el valor y lo va a buscar a la API
 
   if (!data) {
-    return "loading";
+    return "change to text vercel";
   }
 
   const mockData = data.characters.results;
