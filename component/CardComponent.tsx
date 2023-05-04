@@ -1,6 +1,6 @@
 export const CardComponent = ({ character }) => {
   if (!character) {
-    return <h4>CHANGE TO TEST VERCEL</h4>;
+    return <h4>Loading</h4>;
   }
   return (
     <a className={"card"}>
